@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2017, 10:56:14 PM
+    Author     : jp_20
+*/
+ul.products li {
+    
+    width: 370px; 
+    display: inline-block; 
+    text-align: center; 
+    background-color: #83a59f  ; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    border-radius: 8px; 
+    border: 2px solid #585858; 
+}
+#block_1
+	{
+	float: left;
+	width: 34%;
+	margin-left: 33%;
+	}
+* html #block_1
+	{
+	display: inline;
+	}
+#block_2
+	{
+	float: left;
+	width: 33%;
+	margin-left: -67%;
+	}
+#block_3
+	{
+	float: left;
+	width: 33%;
+	}
+
+#wrapper
+	{
+
+	float: left;
+
+	float: none;
+	}
+
+#wrapper:after
+	{
+	content: '[DO NOT LEAVE IT IS NOT REAL]'; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+#wrapper
+	{
+	display: inline-block;
+	}
+
+#wrapper
+	{
+	display: block;
+	}
+
+#footer
+	{
+	clear: both;
+}
